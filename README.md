@@ -26,6 +26,14 @@ Train/upper underscore case as: TRAIN_UPPER_UNDERSCORE_CASE - name: "UPPER_UNDER
 
 # Usage
 
-${__caseFormat("MyString", "LOWER_CAMEL_CASE", outputVariable);
+Parameter 1 - String to change case. Mandatory
+
+Parameter 2 - Case Mode (case insenstive). Optional (Default "LOWER_CAMEL_CASE") 
+
+- if not valid mode will return string as is.
+
+Parameter 3 - Name of variable. Optional reference name for reusing the value computed by this function.
+
+For example: ${__caseFormat("MyString", "LOWER_CAMEL_CASE", outputVariable);
 
 Will save in outputVariable value "myString"

@@ -16,10 +16,10 @@ Lisp or kebab or spinal or lower hyphen case, as: lis-keba-spinal-lower-case - n
 </li>
   
   <li>
-Train/upper underscore case, as: TRAIN-CASE - name: "TRAIN_CASE"
+Train case, as: TRAIN-CASE - name: "TRAIN_CASE"
 </li>
   <li>
-Train/upper underscore case, as: TRAIN_UPPER_UNDERSCORE_CASE - name: "UPPER_UNDERSCORE"
+Upper underscore case, as: UPPER_UNDERSCORE_CASE - name: "UPPER_UNDERSCORE"
 </li>
 
 # Usage

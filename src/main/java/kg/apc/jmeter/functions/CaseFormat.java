@@ -45,12 +45,12 @@ public class CaseFormat extends AbstractFunction {
 
 	private static final String CHANGE_CASE_MODE = "Change case mode"; //$NON-NLS-1$
 	private static final String STRING_TO_MODIFY = "String to modify"; //$NON-NLS-1$
-	private static final String HYPHEN_MINUS = "-";
-	private static final String UNDERSCORE = "_";
-	private static final Pattern NOT_ALPHANUMERIC_REGEX = Pattern.compile("[\\s\\-_]+");
+	private static final String HYPHEN_MINUS = "-";  //$NON-NLS-1$
+	private static final String UNDERSCORE = "_";  //$NON-NLS-1$
+	private static final Pattern NOT_ALPHANUMERIC_REGEX = Pattern.compile("[\\s\\-_]+");  //$NON-NLS-1$
 	private static final Logger LOGGER = LoggerFactory.getLogger(CaseFormat.class);
 	private static final List<String> DESC = new LinkedList<>();
-	private static final String KEY = "__caseFormat";
+	private static final String KEY = "__caseFormat";  //$NON-NLS-1$
 
 	private static final int MIN_PARAMETER_COUNT = 1;
 	private static final int MAX_PARAMETER_COUNT = 3;
